@@ -1,10 +1,5 @@
 
-[d0, d1, d2, d3] = textread('file_read_1_data.txt', '%s %s %s %s', 'headerlines', 1);
+[d0, d1, d2, d3] = textread('file_read_2_data.txt', '%d %f,%f,%d', 'headerlines', 1);
 
-fd0 = typecast(uint32(hex2dec(d0)),'single');
-fd1 = typecast(uint32(hex2dec(d1)),'single');
-fd2 = typecast(uint32(hex2dec(d2)),'single');
-fd3 = typecast(uint32(hex2dec(d3)),'single');
-[d0, d1, d2, d3] 
-[df0, df1, df2, df3] 
+[d0, d1, d2, d3]
 
