@@ -6,5 +6,5 @@ fd1 = typecast(uint32(hex2dec(d1)),'single');
 fd2 = typecast(uint32(hex2dec(d2)),'single');
 fd3 = typecast(uint32(hex2dec(d3)),'single');
 [d0, d1, d2, d3] 
-[df0, df1, df2, df3] 
+[fd0, fd1, fd2, fd3] 
 
