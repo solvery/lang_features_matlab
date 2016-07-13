@@ -15,3 +15,7 @@ A(:,1)=[]
 n=10;
 a=[1 3 7]';
 rep=a(:,ones(1,n))
+rep=a*ones(1,n)
+a=[1 4 8];
+rep=a(ones(1,n),:)
+rep=ones(n,1)*a
