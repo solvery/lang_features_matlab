@@ -1,7 +1,12 @@
 
+
+%%
 A=[1,2,3;4,5,6]
 ind=find(A>3)
 [n m]=find(A>3)
+
+%% 追加
+A=[A; 7 8 9]
 
 % get
 A(1,:)
@@ -27,4 +32,5 @@ M=3; N=2;
 mIndex=(1:m)'*ones(1,M);
 nIndex=(1:n)'*ones(1,N);
 B=A(mIndex,nIndex)
+%repmat
 
