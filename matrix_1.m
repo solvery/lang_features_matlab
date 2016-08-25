@@ -16,7 +16,7 @@ A(:,1)
 A(1,:)=[]
 A(:,1)=[]
 
-% 行向量拷贝 
+% 行向量拷贝  复制
 n=10;
 a=[1 3 7]';
 rep=a(:,ones(1,n))
@@ -34,3 +34,6 @@ nIndex=(1:n)'*ones(1,N);
 B=A(mIndex,nIndex)
 %repmat
 
+% matlab如何提取偶数行列
+A(1:2:end)
+A(2:2:end)
