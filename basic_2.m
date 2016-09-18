@@ -9,6 +9,7 @@ while i<10
 	i=i+1;
 end
 
+% 多行if不需要begin...end，也不需要{}
 if a<0
 	i=i+1;
 else
