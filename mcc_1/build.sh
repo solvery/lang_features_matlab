@@ -1,2 +1,3 @@
 
-mcc -m mcc_1
+mcc -m hello.m 
+mcc -m magicsquare.m
