@@ -1,10 +1,7 @@
-parpool(3)
+parpool(4)
 spmd
-  % build magic squares in parallel
-  q = magic(labindex + 2);
+	pause(5);
+	pause(5);
+	pause(5);
+	pause(5);
 end
-for ii=1:length(q)
-  % plot each magic square
-  figure, imagesc(q{ii});
-end
-delete(gcp)
